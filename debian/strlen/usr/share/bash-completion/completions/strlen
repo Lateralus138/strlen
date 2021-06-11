@@ -1,0 +1,3 @@
+strlen_list=( -h --help )
+complete -W "$(printf '%s\n' "${strlen_list[@]}")" strlen
+
